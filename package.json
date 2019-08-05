@@ -1,0 +1,20 @@
+{
+	"name": "com.cratesmith.actors",
+	"displayName": "Cratesmith.Actors",
+	"description": "A workflow for streamlining using the actor-gameobject pattern in Unity3d.",
+	"version": "0.0.1-develop",
+	"unity": "2018.3",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cratesmith/Cratesmith.Actors.git"
+	},
+	"src": "Packages/Cratesmith.Actors",
+	"author": "Kieran Lord <cratesmith@cratesmith.com> (https://github.com/cratesmith)",
+	"dependencies": {
+		"com.cratesmith.utils": "https://github.com/Cratesmith/Cratesmith.Utils#0.0.1-develop",
+		"com.cratesmith.asseticons": "https://github.com/Cratesmith/Cratesmith.AssetIcons#0.0.1-develop",
+		"com.cratesmith.settings": "https://github.com/Cratesmith/Cratesmith.Settings#0.0.1-develop",
+		"com.cratesmith.scriptexecutionorder": "https://github.com/Cratesmith/Cratesmith.ScriptExecutionOrder#0.0.1-develop"
+	}
+}
