@@ -90,6 +90,8 @@ namespace Cratesmith.Actors
         }
 
         const string formatSettings = "using UnityEngine;\n" +
+                                      "using Cratesmith.Actors;\n" +
+                                      "using Cratesmith.Settings;\n" +
                                       "\n" +
                                       "// Actor type. The 'main' behaviour for a GameObject and all of it's children.\n" +
                                       "public class {0} : {1}\n" +
@@ -101,6 +103,7 @@ namespace Cratesmith.Actors
                                       "}}\n";
 
         const string formatNoSettings = "using UnityEngine;\n" +
+                                        "using Cratesmith.Actors;\n" +
                                         "\n" +
                                         "// Actor type. The 'main' behaviour for a GameObject and all of it's children.\n" +	                                         
                                         "public class {0} : {1}\n" +

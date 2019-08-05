@@ -31,6 +31,8 @@ namespace Cratesmith.Actors
         }
 
         const string singletonFormatSettings = "using UnityEngine;\n" +
+                                               "using Cratesmith.Actors;\n" +
+                                               "using Cratesmith.Settings;\n" +
                                                "\n" +
                                                "// Singleton type. Can be placed in scene or will auto-construct if requested when no instance exists.\n" +
                                                "// Will auto destroy if an instance already exists within it's scope.\n" +
@@ -42,6 +44,7 @@ namespace Cratesmith.Actors
                                                "}}\n";
 
         const string singletonFormatNoSettings = "using UnityEngine;\n" +
+                                                 "using Cratesmith.Actors;\n" +
                                                  "\n" +
                                                  "// Singleton type. Can be placed in scene or will auto-construct if requested when no instance exists.\n" +
                                                  "// Will auto destroy if an instance already exists within it's scope.\n" +
