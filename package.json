@@ -15,6 +15,6 @@
 		"com.cratesmith.utils": "https://github.com/Cratesmith/Cratesmith.Utils#0.0.1-develop",
 		"com.cratesmith.asseticons": "https://github.com/Cratesmith/Cratesmith.AssetIcons#0.0.1-develop",
 		"com.cratesmith.settings": "https://github.com/Cratesmith/Cratesmith.Settings#0.0.1-develop",
-		"com.cratesmith.scriptexecutionorder": "https://github.com/Cratesmith/Cratesmith.ScriptExecutionOrder#0.0.1-develop"
+		"com.cratesmith.scriptexecutionorder": "https://github.com/Cratesmith/Cratesmith.ScriptExecutionOrder#0.0.2"
 	}
 }
