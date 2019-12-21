@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Cratesmith.Utils;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
@@ -108,7 +107,7 @@ namespace Cratesmith.Actors
 
         protected virtual void OnDestroy()
         {
-            if(ApplicationState.isQuitting) return;
+            if(!Application.isPlaying) return;
 
             T temp = null;
             if (_sDontDestroySceneRoot == this)

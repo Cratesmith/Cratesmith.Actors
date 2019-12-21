@@ -1,5 +1,4 @@
 ﻿using Cratesmith.ScriptExecutionOrder;
-using Cratesmith.Utils;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -42,7 +41,7 @@ namespace Cratesmith.Actors
 
         public static TSelfType Get(bool constructIfMissing=true)
         {
-            if (!s_instance && constructIfMissing && !ApplicationState.isQuitting)
+            if (!s_instance && constructIfMissing && !Application.isPlaying)
             {
                 var go = new GameObject(typeof(TSelfType).Name);
                 go.transform.parent = GetSingletonRoot();
