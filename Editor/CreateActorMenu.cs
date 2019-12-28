@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using Cratesmith.Settings;
+using Cratesmith.Utils;
 using UnityEditor;
 using UnityEngine;
 
