@@ -41,7 +41,7 @@ namespace Cratesmith.Actors
 
         public static TSelfType Get(bool constructIfMissing=true)
         {
-            if (!s_instance && constructIfMissing && !Application.isPlaying)
+            if (!s_instance && constructIfMissing)
             {
                 var go = new GameObject(typeof(TSelfType).Name);
                 go.transform.parent = GetSingletonRoot();
