@@ -108,7 +108,7 @@ namespace Cratesmith.Actors
 
         protected virtual void OnDestroy()
         {
-            if(!Application.isPlaying) return;
+            if(ApplicationState.isQuittingOrNotPlaying) return;
 
             T temp = null;
             if (_sDontDestroySceneRoot == this)

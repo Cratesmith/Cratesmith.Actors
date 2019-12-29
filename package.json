@@ -2,7 +2,7 @@
 	"name": "com.cratesmith.actors",
 	"displayName": "Cratesmith.Actors",
 	"description": "A workflow for streamlining using the actor-gameobject pattern in Unity3d.",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"unity": "2018.3",
 	"license": "MIT",
 	"repository": {
